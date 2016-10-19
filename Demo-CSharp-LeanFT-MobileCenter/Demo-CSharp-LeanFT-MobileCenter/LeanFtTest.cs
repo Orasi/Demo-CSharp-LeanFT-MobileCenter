@@ -71,7 +71,7 @@ namespace Demo_CSharp_LeanFT_MobileCenter
                 Text = @"5",
                 ClassName = @"Button",
                 MobileCenterIndex = 19
-            }).Tap();
+            }).Tap();  //commment to show git update
 
             app.Describe<IButton>(new ButtonDescription
             {
